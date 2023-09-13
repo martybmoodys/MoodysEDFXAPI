@@ -1,0 +1,17 @@
+
+pandas
+sklearn
+scipy
+seaborn
+numpy
+matplotlib
+yfinance
+statsmodels
+pysentiment2
+selenium
+BeautifulSoup
+nltk
+openai
+mysql
+ChromaDB
+
