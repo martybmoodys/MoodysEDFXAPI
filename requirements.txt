@@ -14,4 +14,12 @@ nltk
 openai
 mysql
 ChromaDB
-
+io
+urllib.parse
+datetime
+time
+logging
+requests
+json
+enum
+num
