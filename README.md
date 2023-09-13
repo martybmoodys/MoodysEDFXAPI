@@ -1,5 +1,4 @@
-# MoodysEDFXAPI
-Moodys Analytics: EDFX API working scripts
+
 
 # MoodysEDFXAPI
 
