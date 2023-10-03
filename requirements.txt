@@ -23,3 +23,5 @@ requests
 json
 enum
 num
+jwtp
+loguru
