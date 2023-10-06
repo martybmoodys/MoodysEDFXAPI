@@ -36,6 +36,8 @@ User-provided Data: If the company isn't within our dataset or if you opt to use
 - CDS-Implied EDF taking information from the credit markets
 - Deterioration Estimate for estimates on potential MIS rating downgrades for Rated entities and adverse/'Shadow' downgrades/adverse actions for private companies
 - Loss Gived Default estiamte (tailored for a particular entity sepcific credit).
+- Climate
+- Smart Projections (Project Financial Statment/Pro Forma)
 
 ### Additional end points help the user:
 
@@ -43,14 +45,10 @@ User-provided Data: If the company isn't within our dataset or if you opt to use
 - Access peer group metrics
 - Access financial statements and key ratios
 
-### Building soon
-- Conditional EDF'S
 
-   i) Climate
-  
+
+### Coming Soon
   ii) Macro-Economic
-  
-  iii) Pro-Forma
   
   iv) Bond Model (Fair Value Spread) estimates
   
