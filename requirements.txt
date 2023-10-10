@@ -7,14 +7,6 @@ numpy
 matplotlib
 yfinance
 statsmodels
-pysentiment2
-selenium
-BeautifulSoup
-nltk
-openai
-mysql
-ChromaDB
-io
 urllib.parse
 datetime
 time
