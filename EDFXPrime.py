@@ -680,21 +680,9 @@ class EDFXEndpoints(EDFXClient):
         except Exception as e:
             print(f"Error: Unable to convert the response to a DataFrame/CSV. {e}")
             return None
+        
+        return EDFXEndpoints.EDFXExportData(df, output_format, financialtemplate)
 
-        # Check OutputFormat
-        if output_format == OutputFormat.PANDAS.value:
-            return df
-        elif output_format == OutputFormat.EXCEL.value:
-            # You can change the file name as needed or even pass it as a parameter
-            df.to_excel("SearchOutput.xlsx", index=False)
-            print("Data saved to SearchOutput.xlsx")
-            return None
-        elif output_format == OutputFormat.CSV.value:
-            df.to_csv('SearchOutput.csv',index=False)
-            print('Data Saved to SearchOutput.csv')
-            return None
-        else:
-            raise ValueError(f"Unsupported OutputFormat: {OutputFormat}")
 
     def EDFXModelInputs(self, uploadFilename: str, localFilename: str, largeFile:bool = False ) -> dict:
 
@@ -1747,6 +1735,7 @@ class EDFXEndpoints(EDFXClient):
         """
 
         output_format = output_format.title()
+        file_name = file_name.title()
         try:
             # Try seeing if there is an error.
             if not isinstance(data,dict) or not data:
