@@ -37,18 +37,20 @@ User-provided Data: If the company isn't within our dataset or if you opt to use
 - Deterioration Estimate for estimates on potential MIS rating downgrades for Rated entities and adverse/'Shadow' downgrades/adverse actions for private companies
 - Loss Gived Default estiamte (tailored for a particular entity sepcific credit).
 - Climate
-- Smart Projections (Project Financial Statment/Pro Forma)
+- Smart Projections (Project Financial Statment/Pro Forma) (ADDED AND PARSED 10/1/2023)
 
 ### Additional end points help the user:
 
 - Search for entity identifiers
 - Access peer group metrics
 - Access financial statements and key ratios
+- Scenario ConditionedPD's have been added.
+  
 
 
 
 ### Coming Soon
-  ii) Macro-Economic
+
   
   iv) Bond Model (Fair Value Spread) estimates
   
