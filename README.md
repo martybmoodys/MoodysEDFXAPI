@@ -2,7 +2,15 @@
 
 # MoodysEDFXAPI
 
+------
 
+# ATTENTION: Before you continue UNDERSTAND:
+
+# Moodys Analytics DOES NOT support this code.  This code is for assistance and demonstration purposes only. 
+
+Licensed Clients should reference https://hub.moodysanalytics.com/products and the functional endpoint examples when formatting their exact questions to support.
+
+-----
 
 ## Introduction
 Moody’s Analytics stands at the forefront of financial modeling and analytics, boasting a rich legacy of crafting industry-leading models derived from an expansive proprietary dataset. This dataset comprises company financials, default histories, and recovery information. The Moody's Analytics Probability of Default (PD) represents our premier estimation, meticulously crafted from the data at hand. It is the culmination of years of rigorous analysis and empirical testing, offering our clients an unparalleled blend of quality and comprehensive coverage. With the EDF-X API, accessing these sophisticated calculations and PD values becomes seamless, granting direct access to PDs for the approximate 400 million companies (both public and private) documented in Orbis globally.
