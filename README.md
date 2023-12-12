@@ -59,6 +59,14 @@ User-provided Data: If the company isn't within our dataset or if you opt to use
 
 ### Coming Soon
 
-  
-  iv) Bond Model (Fair Value Spread) estimates
+#### Loss Given Default interoperatability between legacy RiskCalc and EDFX API along with EDFX API Only Loss Given Default Large File Jupyter Notebooks. (ETA January 15 2024)
+  - Will support use cases for employees who have uploaded their portfolio within EDFX and have downloaded the .csv file as well as for users who only have the entities IDs.
+  - We will demonstrate how to output a legacy RiskCalc.csv 'input file' for Legacry RiskCalc however the main use case we anticipate is for the EDFX-API Only solution.
+  - 
+#### Bond Model Metrics (ETA February 1 2024)
+  - Time Series of Deterioration of Probability metrics.
+  - Time Series of Fair Value Spread.
+  - OAS Endpoints. 
+
+
   
