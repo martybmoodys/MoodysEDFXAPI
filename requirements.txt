@@ -17,3 +17,5 @@ enum
 num
 jwtp
 loguru
+asyncio
+aiohttp
