@@ -19,3 +19,4 @@ jwtp
 loguru
 asyncio
 aiohttp
+pytest
