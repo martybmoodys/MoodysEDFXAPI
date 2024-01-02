@@ -10,7 +10,6 @@ statsmodels
 urllib.parse
 datetime
 time
-logging
 requests
 json
 enum
@@ -20,3 +19,7 @@ loguru
 asyncio
 aiohttp
 pytest
+openpyxl
+pyjwt
+xlrd
+chardet
