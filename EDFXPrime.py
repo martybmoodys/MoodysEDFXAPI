@@ -633,7 +633,7 @@ class EDFXEndpoints(EDFXClient):
         for entities_batch in self.split_list(EntityPayload, BatchSize=BatchSize):
             try:
                 # grab the python dictionary output (30 of them)
-                pd_dict = self.EDFXPD_Endpoint(entities=EntityPayload,startDate=startDate, endDate=endDate, historyFrequency=historyFrequency,
+                pd_dict = self.EDFXPD_Endpoint(entities=entities_batch,startDate=startDate, endDate=endDate, historyFrequency=historyFrequency,
                                                 asReported=asReported, modelParameters=modelParameters, includeDetailResult=includeDetailResult,
                                                 includeDetailInput=includeDetailInput, includeDetailModel=includeDetailModel)
                 # This is saying 'if False' raise ValueError
