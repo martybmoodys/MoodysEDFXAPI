@@ -56,7 +56,8 @@ User-provided Data: If the company isn't within our dataset or if you opt to use
 - LGD SCORECARD Class LIVE.  You can use this DATACLASS to help you generate the appropriate scorecard payload. 
   
 
-#### Loss Given Default interoperatability between legacy RiskCalc and EDFX API along with EDFX API Only Loss Given Default Large File Jupyter Notebooks. (ETA February 9 2024)
+#### Loss Given Default interoperatability between legacy RiskCalc and EDFX API along with EDFX API Only Loss Given Default Large File Jupyter Notebooks.  EDFXLGDExamples is the the file
+
   - Will support use cases for employees who have uploaded their portfolio within EDFX and have downloaded the .csv file as well as for users who only have the entities IDs.
   - We will demonstrate how to output a legacy RiskCalc.csv 'input file' for Legacry RiskCalc however the main use case we anticipate is for the EDFX-API Only solution.
   - We also show How EDFX-API can be leveraged to manage LGD term structures of any compute along with show when useres with to apply the qualitative scorecard wthin the EDFX-API's LGD Payload.
